@@ -359,14 +359,17 @@ cursor: pointer;
 #menu .container .menu{
     margin:20px;
 }
-#menu .container .menu h1{
+#menu .container .row .menu h1{
     color:rgb(245, 142, 57);
     text-align: center;
     font-weight: bold;
+    margin-top:15px;
 }
-#menu .container .menu .lead{
+#menu .container .row .menu p{
     text-align: center;
     font-size: 18px;
+    margin-bottom: 0;
+    width:90%;
 }
 #menu .container .first , #menu .container .second , #menu .container .third, #menu .container .fourth, #menu .container .fivth, #menu .container .sixth, #menu .container .seventh, #menu .container .eighth, #menu .container .ninth{
     margin-top:80px;
