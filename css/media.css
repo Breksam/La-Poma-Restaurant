@@ -84,11 +84,15 @@
 
 
 /*---------------------------------- menu page ---------------------------------- */
+
 @media(max-width: 1200px){
     #menu .container .first img , #menu .container .third img, #menu .container .fivth img, #menu .container .seventh img,#menu .container .ninth img {
         padding-right:0;
     }
     #menu .container .second img, #menu .container .fourth img, #menu .container .sixth img, #menu .container .eighth img{
         padding-left: 0;
+    }
+    #menu .container .first , #menu .container .second , #menu .container .third, #menu .container .fourth, #menu .container .fivth, #menu .container .sixth, #menu .container .seventh, #menu .container .eighth, #menu .container .ninth{
+        margin-top:50px;
     }
 }
