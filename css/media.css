@@ -1,0 +1,94 @@
+/*---------------------------------- index page ---------------------------------- */
+
+/* media query of navbar */
+@media (max-width: 1200px) 
+{
+    .bg-light 
+    {
+        height: 100%;
+    }
+    .nav
+    {
+        /* flex-direction: column; */
+        align-items:center;
+    }
+}
+@media (max-width: 1000px) 
+{
+    .bg-light 
+    {
+        height: 100%;
+    }
+    .nav
+    {
+        flex-direction: column;
+        align-items:center;
+    }
+}
+
+/* media query about & product section */
+@media (max-width: 1200px) 
+{
+    .equal .narrow
+    {
+        margin:40px 0;
+    }
+    .equal .narrow .lead
+    {
+        font-size:17px;
+        line-height: 1.5;
+    }
+    #about .row .img
+    {
+        width:100%;
+    }
+}
+
+/* media query footer */
+@media (max-width: 1200px) 
+{
+    #contact
+    {
+        margin-top:10px;
+        padding-top:30px;
+        text-align: center;
+        font-size:17px;
+    }
+    footer .sm
+    {
+        font-size:30px;
+    }
+    footer h5
+    {
+        font-size:25px;
+        margin-top:27px;
+        margin-bottom:5px;
+        letter-spacing:1px;
+    }
+    footer .submit
+    {
+        margin-top:10px;
+    }
+}
+
+/*---------------------------------- form page ---------------------------------- */
+/* media query reservation form */
+@media  (max-width: 1200px)
+{
+    #reservation form input,
+    #reservation form label 
+    {
+        width:100%;
+    }
+}
+
+
+/*---------------------------------- menu page ---------------------------------- */
+@media(max-width: 1200px){
+    #menu .container .first img , #menu .container .third img, #menu .container .fivth img, #menu .container .seventh img,#menu .container .ninth img {
+        padding-right:0;
+    }
+    #menu .container .second img, #menu .container .fourth img, #menu .container .sixth img, #menu .container .eighth img{
+        padding-left: 0;
+    }
+}
