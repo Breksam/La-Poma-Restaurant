@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Uchen&display=swap');
-
-/* body */
+/* Start Glopal rules */
 *, ::after, ::before
 {
     margin: 0;
@@ -10,23 +9,20 @@
     font-family: 'Uchen', serif;
     transition: all .5s linear;
 }
-
-/* general */
 .container
 {
     overflow: hidden;
     margin: auto;
 }
-
-    /* ------------------------- index Page -------------*/
-
-/* start navbar */
+/* End Glopal rules */
+                                                /* ------------------------- index Page -------------*/
+/* Start navbar Rules */
 .navbar-brand {
     color:rgb(245, 142, 57)  !important;
     font-size:25px;
     font-weight:bold;
     font-family: 'Lobster', cursive;
-}
+}   
 .navbar .collapse ul li .nav-link
 {
     border: none;
@@ -55,8 +51,7 @@
     animation-name: pulse;
     animation-duration: .5s;
 }
-/* end navbar */
-
+/* End navbar Rules */
 /* start carousel-inner */
 .carousel-control-prev:hover, .carousel-control-next:hover
 {
@@ -66,8 +61,7 @@
     max-height:600px;
 }
 /* end carousel-inner */
-
-/* start news section */
+/* start news Rules */
 #news{
     background-color:rgb(27, 27, 27) ;
     height:50px;
@@ -77,9 +71,8 @@
     padding: 15px;
     font-size:18px;
 }
-/* end news section */
-
-/* start about section */
+/* end news Rules */
+/* start about Rules */
 .equal .narrow
 {
     margin:50px 0;
@@ -145,9 +138,8 @@
     animation-name: pulse;
     animation-duration: .5s;
 }
-/* end about section */
-
-/* Start note section */
+/* end about Rules */
+/* Start note Rules */
 #note
 {
     margin-top: 5%;
@@ -168,9 +160,8 @@
     text-transform: uppercase;
     display: inline-block;
 }
-/* end note section */
-
-/* Start product section */
+/* end note Rules */
+/* Start product Rules */
 #product .container .row img
 {
     width: 100%;
@@ -193,9 +184,8 @@
    animation-duration: .5s;
 }
 
-/* end product section */
-
-/* start activities section */
+/* end product Rules */
+/* start activities Rules */
 #activities .row
 {
     padding-top:30px;
@@ -215,20 +205,19 @@
     line-height:1.7;
     font-size:15px;
 }
-#activities .row a
+#activities .row a.btn
 {
-    background-color:rgb(27, 27, 27);
+    text-decoration: none;
+    background-color:rgb(245, 142, 57) ;
     color: white;
-    width:200px;
+    padding: 6px 20px;
 }
 #activities .row a:hover
 {
-    background-color:rgb(245, 142, 57) ;
-    color:rgb(27, 27, 27);
-
+    animation-name: pulse;
+    animation-duration: .5s;
 }
-/*end activities section */
-
+/*end activities Rules */
 /* start footer */
 #contact
 {
@@ -255,13 +244,15 @@ footer .submit
 {
     margin-top:30px;
     width:300px;
-    background-color:rgb(27, 27, 27);
-    color: white;
+    text-decoration: none;
+    background-color:rgb(245, 142, 57) ;
+    color: white;    
 }
 footer .submit:hover
 {
-    background-color:rgb(245, 142, 57) ;
-    color:rgb(27, 27, 27);
+    color: white;
+    animation-name: pulse;
+    animation-duration: .5s;
 }
 footer .social
 {
@@ -286,14 +277,11 @@ footer .bg p
     padding-top:20px;
 }
 /* end footer */
-
 /* start scroll top */
 #scroll-top
 {
 width: 38px;
 height:36px;
-background-color:rgb(245, 142, 57) ;
-color:rgb(27, 27, 27);
 text-align:center;
 position: fixed;
 right:25px;
@@ -303,17 +291,16 @@ padding:2px;
 z-index:9999;
 display:none;
 cursor: pointer;
+background-color:rgb(245, 142, 57) ;
+color: white;
 }
 #scroll-top:hover
 {
-    color: white;
-    background-color:rgb(27, 27, 27);
+    animation: pulse .3s linear infinite;
 }
 /* end scroll top */
-
-    /* ------------------------- form Page -------------*/
-
-/* start reservation section  */
+                                                  /* ------------------------- form Page -------------*/
+/* start reservation Rules  */
 #reservation .container
 {
     padding:0 50px 0 50px;   
@@ -337,25 +324,31 @@ cursor: pointer;
     padding:10px;
     background-color:#f9f9f9;
 }
-#reservation form a
+#reservation form select{
+    width: 100%;
+    height:45px;
+    border: none;
+    padding:10px;
+    background-color:#f9f9f9;
+}
+#reservation form .btn
 {
     margin-top:15px;
     width:100%;
     border: none;
-    color: white;
-    background-color:rgb(27, 27, 27);
-
-}
-#reservation form a:hover
-{
+    text-decoration: none;
     background-color:rgb(245, 142, 57) ;
-    border:none;
-    color:rgb(27, 27, 27);
+    color: white;   
 }
-/* end reservation section */
-
-
-    /* ------------------------- Menu Page -------------*/
+#reservation form .btn:hover
+{
+    animation-name: pulse;
+    animation-duration: .5s;
+    border:none;
+}
+/* end reservation Rules */
+                                                 /* ------------------------- Menu Page -------------*/
+/*start menu Rules  */
 #menu .container .menu{
     margin:20px;
 }
@@ -394,3 +387,4 @@ cursor: pointer;
 #menu .container .row .price{
     text-align: right;
 }
+/*End menu Rules  */
